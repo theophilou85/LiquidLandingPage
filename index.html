@@ -68,12 +68,18 @@
             }
 
             .landing-page h1 {
-                font-size: clamp(2.8rem, 5vw, 3.6rem);
+                font-size: 4em;
                 margin: 0;
-                font-weight: 300;
-                letter-spacing: 0.35em;
+                font-weight: 400;
+                letter-spacing: 5px;
                 text-transform: uppercase;
             }
+
+        @media (max-width: 768px) and (orientation: portrait) {
+            .landing-page h1 {
+                font-size: 2.8em;
+            }
+                }
 
             .landing-page h2 {
                 font-size: 1.2em;
